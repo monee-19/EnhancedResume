@@ -1,0 +1,351 @@
+*{
+  -webkit-box-sizing:border-box;
+  -msbox-sizing:border-box;
+  box-sizing: border-box;
+}
+
+
+
+
+/*********************Section nav******************** */
+
+.bar{
+  position:relative;
+  top:0;
+  left:0;
+}
+
+/* section nav{
+  background: orange;
+} */
+
+/* #Home{
+  background:url("images/kelvin.png") no-repeat center ;
+  background-size: cover;
+} */
+#Home .rimage{
+  height:100%;
+  color:#fff;
+  text-align: center;
+  position: relative;
+}
+#Home .rimage img{
+  height: 100%;
+  width: 100%;
+}
+.text1{
+  /* position: absolute;
+  top:50%;
+  text-align:center;
+  /* left:50%; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width:880px;
+}
+/**************************About********************************/
+.one{
+  background: #9D9D9D ;   /*#C89595*/
+}
+.one .text-center{
+  padding-bottom: 30px;
+}
+.one p{
+  text-align:justify;
+  color:white;
+}
+.one h3{
+  color:rgb(225, 240, 227);
+
+}
+
+.button{
+  color: black;
+  border: 1.2px solid rgb(63, 64, 75);
+  -webkit-border-radius: 25;
+    -moz-border-radius: 25;
+    border-radius: 25px;
+    background-color: rgb(245, 255, 240);
+        padding: 4px 8px;
+        text-align: center;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        cursor: pointer;
+        text-decoration: none;
+        opacity: 0.8;
+
+}
+
+.button:hover{
+  background-color: #686f70;
+        color: white;
+  }
+
+
+
+  .marq{
+    color: white;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    padding: 2px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    margin: 0px;
+    opacity: 0.8;
+  }
+
+/******************* Container-fluid *************************/
+.container-fluid{
+  padding: 3% 7% ;
+}
+/***************************************EDUCATION*************************************************/
+.mobiletable{
+  display:none;
+}
+
+              /**mobile table style**/
+.mobiletable .elements .col-6, .mobiletable .upload .col-12{
+  border-style:solid solid none solid;
+  border-width:1px;
+  border-color:red;
+
+}
+.mobiletable .elements .element .header, .mobiletable .upload .header{
+  font-weight: 500;
+}
+.elements .element{
+  margin-bottom: 10px;
+}
+.elements, .upload{
+    margin-bottom:20px;
+}
+.uploadcer{
+  padding: 10px;
+}
+.mobiletable .elements .last, .mobiletable .upload .last{
+    border-bottom-style:solid;
+}
+
+.two .text-center{
+  padding-bottom: 30px;
+}
+
+
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  /* border: 1px solid #ddd; */
+}
+
+.table thead {
+  /* background-color: #1c2741; */
+  background-color: #914866;
+}
+
+.table thead tr th {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.35px;
+  color: #f3ebeb;
+  opacity: 1;
+  padding: 12px;
+  vertical-align: top;
+  text-align:center;
+  border: 1px solid #383c3f85;
+}
+
+.table tbody tr td {
+  font-size: 14px;
+  letter-spacing: 0.35px;
+  font-weight: normal;
+  color: #111010;
+  background-color: #eff0f1;
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #151b29;
+}
+/*************media query for table*****************/
+/* @media (max-width:768px) {
+  .table thead {
+    display: none;
+  }
+   .table tbody tr{
+     margin-bottom: 20px;
+   }
+
+  .table, .table tbody, .table tr, .table td {
+    display: block;
+    width: 100%;
+  }
+
+  .table tbody tr td {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .table td:before {
+    content: "";
+  }
+} */
+     /*mobiletable*/
+@media (max-width:576px){
+  .mobiletable{
+    display:block;
+  }
+  .two .tablecontainer{
+    display:none;
+  }
+}
+           /*for tablets*/
+@media (min-width:576px) and (max-width:768px){
+  /* table{
+    table-layout: fixed;
+    width:100%;
+  } */
+  .two .tablecontainer{
+    overflow-x: auto;
+  }
+}
+
+
+
+
+/*************************************** Skills ******************************************/
+.three .row .Percent{
+  position: relative;
+  width:100%;
+  height:10px;
+  background: #fff;
+}
+.three .row .Percent div{
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  background:#151b29;
+
+}
+
+
+/****animation****/
+
+
+.three{
+  /* background:#ef8172; */
+   background:#c8c0c0;//cab1b1
+
+}
+/* .three .row p{
+  color:rgb(225, 240, 227);
+
+} */
+.three .text-center h3{
+  color:#fff;
+}
+.three .text-center{
+  padding-bottom: 30px;
+}
+
+/********************************* Projects************************/
+.four .text-center{
+  padding-bottom: 30px;
+}
+.four .text-center h3{
+  color:#458258;
+}
+.four .card:hover{
+  box-shadow:2px 2px 2px aqua;
+  transform:scale(1.1);
+}
+
+/*************************************Contact****************************/
+.five{
+  background: #b6a7ac;
+}
+#Contact span{
+  font-weight: 700;
+}
+#Contact label{
+  font-weight: 500;
+}
+sm{
+  color:#8e4732;
+}
+#Contact .text-center{
+  color:#ff4c68;
+}
+.text-center p{
+  color:aliceblue;
+}
+.loading img{
+  width:100%;
+  height:100px;
+}
+          /******validating form******/
+.loading,.sent-message{
+    display:none;
+    margin-bottom:15px;
+  }
+  .sent-message{
+    font-size:1rem;
+    color:#42916b;
+  }
+
+  .validate-name,.validate-email,.validate-subject,.validate-message{
+    display:none;
+    margin-top:.25rem;
+    font-size:.875rem;
+    color:#dc3545;
+  }
+  .error{
+    color:red;
+    margin-bottom: 15px;
+  }
+
+
+
+
+
+/************************footer*******************************/
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 5% 15%;
+
+}
+#footer i{
+  /* margin:2%; */
+  padding: 1%;
+}
+#footer p{
+  font-family: "Montserrat-light";
+  color: #abb6ad;
+}
+#footer a{
+  color:rgb(152, 159, 135);
+}
+#footer a:hover{
+  color:rgb(230, 22, 144);
+}
+
+
+
+/********************************** Top home back button***********************/
+
+.topHome{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 4;
+  color:white;
+  background: rgb(73, 76, 79);
+  border-radius:50%;
+  padding:4px;
+}

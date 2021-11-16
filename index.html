@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- bootstrap 4 -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <!-- External style sheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- fontawesome link for new versions -->
+  <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
+
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <!----------------------------------Section nav bar---------------------------------------------->
+  <section>
+  <!-- nav bar -->
+
+   <div class="bar">
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-dark ">
+      <a class="navbar-brand" href="#">Profile</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="#Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#Skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </div>
+  </section>
+  <div id="top"></div>
+
+  <!---------------------------Home--------------------------- -->
+  <section id="Home">
+
+    <div class="rimage ">
+      <img src="images/kelvin.png" alt="image-kelvin">
+      <div class="text1">
+        <h2>Subash Chandra Bose </h2>
+        <p>Web Developer | Graphic Designer</p>
+
+<!-- <p id="myP"></p> -->
+<address> <font><marquee class="marq">Email Address : subashbose@Cognizant.com || Work Number : 9123458935</marquee></font> </addresss>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!---------------------------About--------------------------- -->
+  <section id="About">
+    <div class="container-fluid one">
+      <div class="text-center">
+        <h3>About</h3>
+      </div>
+      <p>Hello I'm .... Nah! click on the button to know my name <button type="button" class="button" onclick="this.innerHTML = 'Not now..!click the last button Haha:)'">clickkk</button>. I'm very tall, probably over 6'5. I'm
+        PERFECTIONIST with a keen I for details. wait there's more... I have technical skills that will simply take ur breath away;). I speak English,Hindi and Telugu.
+        "I am extremely loyal to my current employer...Feel free to ring my office if you are interested in my CV". By the way I'm <button type="button" class="button" onclick="this.innerHTML = 'Subash'">Haha:)</button> </p>
+    </div>
+  </section>
+
+
+  <!---------------------------------------Education------------------------------------->
+  <section id="Education">
+
+    <div class="container-fluid two">
+      <div class="text-center">
+        <h3 class="heading">Education Details</h3>
+      </div>
+      <div class="tablecontainer ">  <!--table-responsive-md table-responsive-sm-->
+        <table class="table">
+          <thead>
+            <tr>
+              <th>S.No</th>
+              <th>Qualification</th>
+              <th>Percentage</th>
+              <th>College</th>
+              <th>Certificate Upload</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td data-label="S.No">1</td>
+              <td data-label="Qualification">BTech,2021</td>
+              <td data-label="Percentage"><button type="button" class="button" onclick="this.innerHTML = '90.00%'">BTech Average %</button></td>
+              <td data-label="College">IIT Amaravati</td>
+              <td data-label="Certificate Upload">
+                <input type="file" id="File Upload" name="File Upload" accept="application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+              </td>
+            </tr>
+            <tr>
+              <td data-label="S.No">2</td>
+              <td data-label="Qualification">XII Standard</td>
+              <td data-label="Percentage"><button type="button" class="button" onclick="this.innerHTML = '98.00%'">XII Average %</button></td>
+              <td data-label="College">Vivekananda College,Amaravati</td>
+              <td data-label="Certificate Upload">
+                <input type="file" id="File Upload" name="File Upload" accept="application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+              </td>
+            </tr>
+            <tr>
+              <td data-label="S.No">3</td>
+              <td data-label="Qualification">X Standard</td>
+              <td data-label="Percentage"> <button type="button" class="button" onclick="this.innerHTML = '98.00%'">X Average %</button> </td>
+              <td data-label="College">Vivekananda School,Amaravati</td>
+              <td data-label="Certificate Upload">
+                <input type="file" id="File Upload" name="File Upload" accept="application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="container-fluid mobiletable">
+        <div class="row elements">
+          <div class="row element">
+          <div class="col-6 header">Qualification</div>
+          <div class="col-6 data">BTech</div>
+          <div class="col-6 header">College</div>
+          <div class="col-6 data">IIT,Amaravati</div>
+          <div class="col-6 header last">Percentage</div>
+          <div class="col-6 data last">85% </div>
+          </div>
+          <div class="row element">
+          <div class="col-6 header">Qualification</div>
+          <div class="col-6 data">XII</div>
+          <div class="col-6 header">College</div>
+          <div class="col-6 data">Vivekananda College,Amaravati</div>
+          <div class="col-6 header last">Percentage</div>
+          <div class="col-6 data last">85% </div>
+          </div>
+          <div class="row element">
+          <div class="col-6 header">Qualification</div>
+          <div class="col-6 data">X</div>
+          <div class="col-6 header">College</div>
+          <div class="col-6 data">Vivekananda School,Amaravati</div>
+          <div class="col-6 header last">Percentage</div>
+          <div class="col-6 data last">85% </div>
+          </div>
+        </div>
+        <div class="row upload text-center">
+          <div class="col-12 header">BTech Certificate</div>
+          <div class="col-12 uploadcer"><input type="file" id="File Upload" name="File Upload" accept="application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"></div>
+          <div class="col-12 header">XII Certificate</div>
+          <div class="col-12 uploadcer"><input type="file" id="File Upload" name="File Upload" accept="application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"></div>
+          <div class="col-12 header">X Certificate</div>
+          <div class="col-12 uploadcer last"><input type="file" id="File Upload" name="File Upload" accept="application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"></div>
+        </div>
+
+    </div>
+
+  </section>
+
+  <!---------------------------Skills--------------------------- -->
+  <section id="Skills">
+    <div class="container-fluid three">
+      <div class="text-center">
+        <h3 class="title2">
+          Professional Skills</h3>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 mb-5 ">
+          <p>Html</p>
+          <div class="Percent">
+            <div class="" style="width:95%;"> </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-5">
+          <p>Css</p>
+          <div class="Percent">
+            <div class="" style="width:90%;"> </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-5 ">
+          <p>JavaScript</p>
+          <div class="Percent">
+            <div class="" style="width:75%;"> </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-5">
+          <p>BootStrap</p>
+          <div class="Percent">
+            <div class="" style="width:70%;"> </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-5 ">
+          <p>Php</p>
+          <div class="Percent">
+            <div class="" style="width:60%;"> </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-5">
+          <p>PhotoShop</p>
+          <div class="Percent">
+            <div class="" style="width:80%;"> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---------------------------Projects--------------------------- -->
+  <section id="Projects">
+
+    <div class="container-fluid four">
+      <div class="text-center">
+        <h3 class="Project-title">Projects</h3>
+      </div>
+
+      <div class="row ">
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 ">
+            <div class="card-header text-white bg-info">
+              <h4>POLICY MANAGEMENT SYSTEM(ASP.net MVC)</h4>
+            </div>
+            <div class="card-body text-justify ">
+              <h5>(2020 - 2021)</h5>
+              <h4>Cognizant</h4>
+              <p class="p3">Life Insurance Management System is a web-based application developed in ASP.NET.
+                It is an online information management and micro insurance analysis system that provides
+                statistics and information related to people and resources involved in insurance.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 ">
+            <div class="card-header text-white bg-info">
+              <h4>CAFE MANAGEMENT SYSTEM(Python)</h4>
+            </div>
+            <div class="card-body text-justify">
+              <h5>(2019 - 2020)</h5>
+              <h4>Cognizant</h4>
+              <p class="p3">“Cyber Cafe Management System” has been design to exhibit the significant of an automated
+                system,which is used to manage and store information about Cyber Cafe Management. The users
+                of this system are required to feed up there own data giving up appropriate constraints be
+                able to manipulate the functioning of various highlights of system.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card h-100 ">
+            <div class="card-header text-white bg-info">
+              <h4>MOVIE TICKET BOOKING SYSTEM(HTML & CSS)</h4>
+            </div>
+            <div class="card-body text-justify">
+              <h5>(2018 - 2019)</h5>
+              <h4>Cognizant</h4>
+
+              <p class="p3">The project objective is to book cinema tickets in online. The Ticket Reservation Systemis an
+                Internet based application that can be accessed throughout the Net and can be accessed by anyone
+                who has a net connection. This applicationwill reserve the tickets. This online ticket reservation
+                system provides a website for a cinema hall where any user of internet can access it.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!---------------------------Contact--------------------------- -->
+  <section id="Contact">
+    <div class="container-fluid five">
+      <div class="text-center">
+        <h2>Let's Keep In Touch!</h2>
+        <p>Thank you for visiting out my profile. If you would like to get into contact with me, please fill out the form below.</p>
+      </div>
+      <div class="row">
+
+        <div class="col-lg-6">
+          <p>
+            <sm>CONTACT DETAILS</sm>
+          </p>
+          <p>
+            <span>Email</span><br /> subashbose@gmail.com <br />
+          </p>
+          <p>
+            <span>Address</span><br> 1/1729 Subash Chandra Bose Street<br> Pincode 516162 <br> Amaravati, Andhra Pradesh. <br>
+          </p>
+          <p>
+            <span>Phone</span><br> +91 7675810388 <br>
+          </p>
+          <!-- <p>
+                <t>Social Links</t><br/>
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-apple"></i></a>
+              </p> -->
+        </div>
+        <div class="col-lg-6">
+          <p>
+            <sm>CONTACT FORM</sm>
+          </p>
+          <form class="contact-form">
+
+            <div class="form-group">
+              <label for="contact-name">Name</label>
+              <input type="name" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 3 chars">
+              <div class="validate-name valid">Name should be least 3 chars and maximum 24 chars</div>
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email</label>
+              <input type="text" name="email" class="form-control" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate-email valid">Please enter a valid email</div>
+            </div>
+            <div class="form-group">
+              <label for="contact-subject">Subject</label>
+              <input type="text" name="subject" class="form-control" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 6 chars of subject">
+              <div class="validate-subject valid">Please enter at least 6 chars and maximum 10 chars of subject</div>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea class="form-control" name="message" id="message" placeholder="Your Message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+              <div class="validate-message valid">Please write something for us(Atleat 8 chars)</div>
+            </div>
+            <!-- --------------------------For javascript---------------------------- -->
+                 <div class="loading">
+                   <img src="images/loadinggif.jpg" alt="loading">
+                 </div>
+                <!-- <div class="error-message"></div> -->  <!-- using JavaScript we create error div element -->
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+
+            <div class="form-send">
+              <button type="submit" class="btn btn-large btn-primary btn-block ">Send Message</button>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+      <!--/.row -->
+    </div>
+    <!--/.container -->
+
+  </section>
+  <!-----------------------Footer----------------------------------------------->
+  <footer id="footer">
+
+    <a href="https://twitter.com/?lang=en" title="Twitter"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.facebook.com/" title="Facebook"><i class="fa fa-facebook"></i></a>
+    <a href="https://linked.in/" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+    <a href="https://www.google.com/gmail/" title="Gmail"><i class="fa fa-envelope"></i></a>
+    <a href="https://github.com/" title="Git hub"><i class="fa fa-github" aria-hidden="true" ></i></a>
+    <!-- <a href="#"><i class="fa fa-apple"></i></a> -->
+    <p>&copy Copyright 2021 Subash Chandra Bose</p>
+
+  </footer>
+  <!-----------------------------------Get to back Home(Top )------------------------------------------>
+  <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a>
+
+
+  <!-- script files -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
